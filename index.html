@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATpap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat">
+        <header>
+            <span>CHATpap</span>
+            <span>▣</span>
+        </header>
+
+        <main>
+            <label for="sala">Elegir sala</label>
+            <select id="sala">
+                <option>General</option>
+                <option>Meli</option>
+                <option>Pendientes</option>
+                <option>Salidas</option>
+            </select>
+
+            <h3>Sala: <span id="salaActual">General</span></h3>
+
+            <p class="pregunta">NOMBRE PARA ENTRAR, ¿va?</p>
+            <input id="nombre" type="text" placeholder="Escribe tu nombre">
+
+            <div class="mensajes" id="mensajes"></div>
+
+            <form id="formulario">
+                <input id="mensaje" type="text"
+                    placeholder="Escribe un mensaje..." required>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p class="nota">Bienvenido a nuestrooo CHATpap 💬</p>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

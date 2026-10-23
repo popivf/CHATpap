@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #11101c;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.chat {
+    width: 100%;
+    max-width: 380px;
+    min-height: 650px;
+    margin: 20px auto;
+    background: #08070d;
+    border: 4px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+header {
+    background: #4055b5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main {
+    padding: 12px;
+}
+
+label, select {
+    display: block;
+    width: 100%;
+}
+
+select, input {
+    padding: 12px;
+    border: none;
+    margin-top: 8px;
+}
+
+select {
+    background: #25a0d1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.pregunta {
+    background: white;
+    color: #169bd0;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+#nombre {
+    width: 100%;
+    background: #95c4d8;
+}
+
+.mensajes {
+    min-height: 150px;
+    padding: 10px;
+}
+
+.mensaje-item {
+    background: #344caa;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow-wrap: anywhere;
+}
+
+#formulario {
+    display: flex;
+    gap: 8px;
+    background: #eee;
+    padding: 8px;
+}
+
+#mensaje {
+    width: 70%;
+    min-width: 0;
+}
+
+button {
+    background: white;
+    color: #168bd0;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nota {
+    text-align: center;
+    color: #8ccbe9;
+}
